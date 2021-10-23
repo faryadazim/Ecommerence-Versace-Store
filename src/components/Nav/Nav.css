@@ -2,25 +2,57 @@
   padding: 0px 30px !important;
   background-color: #f5f5f5;
 }
-.microNav {
+.microNavLeft {
   padding: 11px 0px !important;
   /* font-family: Gillsans, sans-serif; */
   font-size: 14px;
-  font-weight: 350;
+  font-weight: 375;
   color: #242424;
 }
-.microNav span {
-  margin-right: 16px;
+.microNavLeft span {
+  margin-right: 20px;
+}
+.microNavRight {
+  padding: 11px 0px !important;
+  /* font-family: Gillsans, sans-serif; */
+  font-size: 14px;
+  font-weight: 375;
+  color: #242424;
+}
+.microNavRight > span {
+  margin-left: 20px;
 }
 .centeredData a {
+  letter-spacing: 0.8px;
+  font-size: 12px;
   text-transform: uppercase;
   color: #242424;
   text-decoration: none;
   border-bottom: 0.5px solid #242424;
   padding-bottom: 0.3px;
-  font-weight: 645;
+  font-weight: 500;
 }
 #icon-wishList {
   height: 18px;
   width: 18pxs;
+}
+.bagTag {
+  text-decoration: none !important;
+}
+.bagText {
+  color: #242424;
+  margin-left: 5px;
+}
+
+/* Main Nav  */
+.nav-item {
+  margin: 8px auto !important;
+  background-color: #fff;
+  color: #242424 !important;
+}
+.nav-item a {
+  color: #242424 !important;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
 }
