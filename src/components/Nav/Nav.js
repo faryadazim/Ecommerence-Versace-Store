@@ -2,15 +2,26 @@ import React from "react";
 import "./Nav.css";
 import WishList from "../../assets/icons/heart.png";
 import Bag from "../../assets/icons/shopping-bag.png";
+import Logo from "../../assets/logo.png";
+
 const Nav = () => {
   return (
     <>
-      <div className="">
-        <div className="row mini-nav px-2">
+      <div className="conyainer-fluid">
+        <div className="row mini-nav  ">
           <div className="col-md-4  microNavLeft ">
-            <span>Pakistan | EN (Rs)</span>
-            <span>Store</span>
-            <span>Contact Us</span>
+            <span>
+              {" "}
+              <a href="/"> Pakistan | EN (Rs)</a>
+            </span>
+            <span>
+              {" "}
+              <a href="/"> Store</a>
+            </span>
+            <span>
+              {" "}
+              <a href="/"> Contact Us</a>
+            </span>
           </div>
           <div className="col-md-4 text-center  microNavLeft centeredData">
             <a href="/"> Sign up for exclusive updates</a>
@@ -23,74 +34,22 @@ const Nav = () => {
               </a>
             </span>
             <span>
-              <a href="/" className="bagTag">
+              <a href="/" className="bagTag ">
                 <img src={Bag} alt="WishList" id="icon-wishList" />
-                <span className="bagText">Bag</span>
+                <span className="bagText ps-1">Bag</span>
               </a>
             </span>
           </div>
         </div>
+      </div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-12 logo-container">
+            <img src={Logo} alt="logo" /></div>
+        </div>
+      </div>
+      <div className="container-fluid">
 
-        <nav className=" px-2 py-0 navbar navbar-expand-lg navbar-light bg-light">
-          <div className="container-fluid ">
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="/navbarText"
-              aria-controls="navbarText"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarText">
-              <ul className="navbar-nav m-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <a className="nav-link " aria-current="page" href="/">
-                    Women
-                  </a>
-                </li>
-
-                <li className="nav-item">
-                  <a className="nav-link " aria-current="page" href="/">
-                    men
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link " aria-current="page" href="/">
-                    children
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link " aria-current="page" href="/">
-                    Home collection
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link " aria-current="page" href="/">
-                    jeans couture
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link " aria-current="page" href="/">
-                    atelier versace
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link " aria-current="page" href="/">
-                    world of versace
-                  </a>
-                </li>
-              </ul>
-              <span className="navbar-text">
-                <a href="/">
-                  <img src={WishList} alt="WishList" id="icon-wishList" />
-                </a>
-              </span>
-            </div>
-          </div>
-        </nav>
       </div>
     </>
   );
