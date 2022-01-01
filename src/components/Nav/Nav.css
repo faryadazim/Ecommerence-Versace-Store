@@ -110,10 +110,10 @@
     background-color: #f5f5f5;
   }
   .nav-link {
-    color: black !important;
+    color: #242424 !important;
     padding: 11px 0px !important;
-    /* font-family: Gillsans, sans-serif; */
-    font-size: 13px;
+    font-family: Gillsans, sans-serif;
+    font-size: 0.93rem;
     font-weight: 375;
   }
 }
