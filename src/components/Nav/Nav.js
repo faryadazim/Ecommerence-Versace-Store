@@ -55,11 +55,11 @@ const Nav = () => {
 
       {/* .........................Mega Menu  */}
 
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg   ">
         <div className="container-fluid">
 
           <button
-            className="navbar-toggler"
+            className="navbar-toggler bg-dark"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavDropdown"
@@ -69,7 +69,7 @@ const Nav = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+          <div className="collapse navbar-collapse justify-content-center navbar-light" id="navbarNavDropdown">
             <ul className="navbar-nav align-center">
 
               <li className="nav-item dropdown">
