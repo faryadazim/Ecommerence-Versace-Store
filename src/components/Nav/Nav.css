@@ -66,14 +66,22 @@
 @media screen and (min-width: 992px) {
   /* remove the padding from the navbar so the dropdown hover state is not broken */
   .navbar {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    /* height: 45px; */
+    /* background-color: blue; */
   }
 
   /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
   .navbar .nav-item {
-    padding: 0.5rem 0.5rem;
+    padding: 0rem 0.5rem;
     margin: 0 0.25rem;
+  }
+
+  .nav-link {
+    border-bottom: 0.06px solid transparent;
+  }
+  .nav-link:hover {
+    transition: 1s;
+    border-bottom: 0.06px solid #303030;
   }
 
   /* makes the dropdown full width  */
@@ -99,21 +107,22 @@
   .navbar .dropdown .dropdown-menu:hover {
     display: block;
     visibility: visible;
+    border: none;
     opacity: 1;
     height: 300px; /*  customize it */
-    transition: visibility 0s, opacity 0.3s linear;
+    transition: visibility 25s, opacity 0.3s linear;
     top: 55px;
   }
 
   .navbar .dropdown-menu {
-    border: 1px solid rgba(0, 0, 0, 0.15);
     background-color: #f5f5f5;
   }
+
   .nav-link {
-    color: #242424 !important;
+    color: #303030 !important;
     padding: 11px 0px !important;
-    font-family: Gillsans, sans-serif;
-    font-size: 0.93rem;
-    font-weight: 375;
+    font-size: 0.91rem;
+    font-weight: 300;
+    letter-spacing: 0.75px;
   }
 }
