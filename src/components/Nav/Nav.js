@@ -51,6 +51,313 @@ const Nav = () => {
       <div className="container-fluid">
 
       </div>
+
+
+      {/* .........................Mega Menu  */}
+
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div className="container-fluid">
+
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul className="navbar-nav align-center">
+
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link "
+                  href="/"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  WOMEN
+                </a>
+                <div
+                  className="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div>
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div>
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div></div>
+                  </div>
+                </div>
+              </li>
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link "
+                  href="/"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  MEN
+                </a>
+                <div
+                  className="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div>
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div>
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div></div>
+                  </div>
+                </div>
+              </li>
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link "
+                  href="/"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  CHILDREN
+                </a>
+                <div
+                  className="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div>
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div>
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div></div>
+                  </div>
+                </div>
+              </li>
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link "
+                  href="/"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  HOME COLLECTION
+                </a>
+                <div
+                  className="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div>
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div>
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div></div>
+                  </div>
+                </div>
+              </li>
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link"
+                  href="/"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  JEANS COUTURE
+                </a>
+                <div
+                  className="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div>
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div>
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div></div>
+                  </div>
+                </div>
+              </li>
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link "
+                  href="/"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  ATELIER VERSACE
+                </a>
+                <div
+                  className="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div>
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div>
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div></div>
+                  </div>
+                </div>
+              </li>
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link  "
+                  href="/"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  SALE
+                </a>
+                <div
+                  className="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div>
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div>
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div></div>
+                  </div>
+                </div>
+              </li>
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link "
+                  href="/"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  WORLD OF VERSACE
+                </a>
+                <div
+                  className="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div>
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div>
+                      <div className="col-md-4">
+                        <a className="dropdown-item " href="/">
+                          Action
+                        </a>
+                      </div></div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          {/* <form class="d-flex">    <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> */}
+        </div>
+      </nav>
     </>
   );
 };
