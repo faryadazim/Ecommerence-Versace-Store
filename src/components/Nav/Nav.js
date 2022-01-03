@@ -3,6 +3,7 @@ import "./Nav.css";
 import WishList from "../../assets/icons/heart.png";
 import Bag from "../../assets/icons/shopping-bag.png";
 import Logo from "../../assets/logo.png";
+import newArrival from "../../assets//menu/newArrival.webp";
 
 const Nav = () => {
   return (
@@ -89,17 +90,38 @@ const Nav = () => {
                 >
                   <div className="container-fluid">
                     <div className="row">
-                      <div className="col-md-4">
+                      <div className="col-md-3">
+                        <a className="dropdown-item " href="/">
+
+
+                          <div className="newArival">
+                            <div className="subMenuHead">
+                              New Arival
+                            </div>
+                            <div className="newArivalImage">
+                              <img src={newArrival} alt="" />
+                            </div>
+
+                            <div className="newArivalName">
+                              New Arival
+                            </div>
+                          </div>
+
+
+
+
+
+
+
+
+                        </a>
+                      </div>
+                      <div className="col-md-6">
                         <a className="dropdown-item " href="/">
                           Action
                         </a>
                       </div>
-                      <div className="col-md-4">
-                        <a className="dropdown-item " href="/">
-                          Action
-                        </a>
-                      </div>
-                      <div className="col-md-4">
+                      <div className="col-md-3">
                         <a className="dropdown-item " href="/">
                           Action
                         </a>
