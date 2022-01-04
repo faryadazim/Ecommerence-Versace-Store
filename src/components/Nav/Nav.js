@@ -46,19 +46,16 @@ const Nav = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-12 logo-container">
-            <img src={Logo} alt="logo" /></div>
+            <img src={Logo} alt="logo" />
+          </div>
         </div>
       </div>
-      <div className="container-fluid">
-
-      </div>
-
+      <div className="container-fluid"></div>
 
       {/* .........................Mega Menu  */}
 
       <nav className="navbar navbar-expand-lg   ">
         <div className="container-fluid">
-
           <button
             className="navbar-toggler bg-dark"
             type="button"
@@ -70,9 +67,11 @@ const Nav = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse justify-content-center navbar-light" id="navbarNavDropdown">
+          <div
+            className="collapse navbar-collapse justify-content-center navbar-light"
+            id="navbarNavDropdown"
+          >
             <ul className="navbar-nav align-center">
-
               <li className="nav-item dropdown">
                 <a
                   className="nav-link "
@@ -92,28 +91,17 @@ const Nav = () => {
                     <div className="row">
                       <div className="col-md-3">
                         <a className="dropdown-item " href="/">
-
-
                           <div className="newArival">
-                            <div className="subMenuHead">
-                              New Arival
-                            </div>
-                            <div className="newArivalImage">
-                              <img src={newArrival} alt="" />
-                            </div>
-
-                            <div className="newArivalName">
-                              New Arival
-                            </div>
+                            <div className="subMenuHead">New Arival</div>
                           </div>
-
-
-
-
-
-
-
-
+                        </a>
+                        <a className="dropdown-item " href="/">
+                          <div className="newArivalImage">
+                            <img src={newArrival} alt="" />
+                          </div>
+                        </a>
+                        <a className="dropdown-item " href="/">
+                          <div className="newArivalName">New In</div>
                         </a>
                       </div>
                       <div className="col-md-6">
@@ -125,7 +113,8 @@ const Nav = () => {
                         <a className="dropdown-item " href="/">
                           Action
                         </a>
-                      </div></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </li>
@@ -160,7 +149,8 @@ const Nav = () => {
                         <a className="dropdown-item " href="/">
                           Action
                         </a>
-                      </div></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </li>
@@ -195,7 +185,8 @@ const Nav = () => {
                         <a className="dropdown-item " href="/">
                           Action
                         </a>
-                      </div></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </li>
@@ -230,7 +221,8 @@ const Nav = () => {
                         <a className="dropdown-item " href="/">
                           Action
                         </a>
-                      </div></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </li>
@@ -265,7 +257,8 @@ const Nav = () => {
                         <a className="dropdown-item " href="/">
                           Action
                         </a>
-                      </div></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </li>
@@ -300,7 +293,8 @@ const Nav = () => {
                         <a className="dropdown-item " href="/">
                           Action
                         </a>
-                      </div></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </li>
@@ -335,7 +329,8 @@ const Nav = () => {
                         <a className="dropdown-item " href="/">
                           Action
                         </a>
-                      </div></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </li>
@@ -370,7 +365,8 @@ const Nav = () => {
                         <a className="dropdown-item " href="/">
                           Action
                         </a>
-                      </div></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </li>

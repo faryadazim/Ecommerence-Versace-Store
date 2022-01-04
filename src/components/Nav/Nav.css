@@ -64,12 +64,6 @@
 
 /* breakpoint and up - mega dropdown styles */
 @media screen and (min-width: 992px) {
-  /* remove the padding from the navbar so the dropdown hover state is not broken */
-  .navbar {
-    /* height: 45px; */
-    /* background-color: blue; */
-  }
-
   /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
   .navbar .nav-item {
     padding: 0rem 0.5rem;
@@ -80,7 +74,7 @@
     border-bottom: 0.06px solid transparent;
   }
   .nav-link:hover {
-    transition: 1s;
+    transition: 2s;
     border-bottom: 0.06px solid #303030;
   }
 
@@ -100,6 +94,7 @@
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.3s linear;
+    /* transition-delay: 0.2s; */
   }
 
   /* shows the dropdown menu on hover */
@@ -109,9 +104,10 @@
     visibility: visible;
     border: none;
     opacity: 1;
-    height: 300px; /*  customize it */
-    transition: visibility 25s, opacity 0.3s linear;
+    height: 445px; /*  customize it */
+    transition: visibility 0s, opacity 0s linear;
     top: 55px;
+    /* transition-delay: 1s; */
   }
 
   .navbar .dropdown-menu {
@@ -125,4 +121,23 @@
     font-weight: 300;
     letter-spacing: 0.75px;
   }
+  .dropdown-item {
+    background-color: transparent !important;
+  }
+}
+
+/* dropdown menu setting  */
+.newArivalImage img {
+  height: 214px;
+  width: 174px;
+}
+.subMenuHead {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.newArivalName,
+.subMenuHead {
+  font-size: 14px;
+  font-weight: 300;
 }
