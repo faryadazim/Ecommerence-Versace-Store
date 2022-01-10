@@ -17,7 +17,7 @@ const Nav = () => {
             </span>
             <span>
               {" "}
-              <a href="/"> Store</a>
+              <a href="/"> Stores</a>
             </span>
             <span>
               {" "}
@@ -87,12 +87,12 @@ const Nav = () => {
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <div className="container-fluid">
+                  <div className="container-fluid mx-5 mt-4">
                     <div className="row">
-                      <div className="col-md-3">
+                      <div className="col-md-2">
                         <a className="dropdown-item " href="/">
                           <div className="newArival">
-                            <div className="subMenuHead">New Arival</div>
+                            <div className="subMenuHead mb-3">New Arival</div>
                           </div>
                         </a>
                         <a className="dropdown-item " href="/">
@@ -101,12 +101,18 @@ const Nav = () => {
                           </div>
                         </a>
                         <a className="dropdown-item " href="/">
-                          <div className="newArivalName">New In</div>
+                          <div className="subMenuBody">New In</div>
                         </a>
                       </div>
-                      <div className="col-md-6">
+                      <div className="col-md-7">
                         <a className="dropdown-item " href="/">
-                          Action
+                          <div className="newArival">
+                            <div className="subMenuHead mb-3">Clothing</div>
+                          </div>
+                        </a>
+
+                        <a className="dropdown-item " href="/">
+                          <div className="subMenuBody">chutdfg</div>
                         </a>
                       </div>
                       <div className="col-md-3">

@@ -131,13 +131,15 @@
   height: 214px;
   width: 174px;
 }
+
 .subMenuHead {
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 300;
   text-transform: uppercase;
-  font-weight: 300;
+  color: #242424 !important;
 }
-.newArivalName,
-.subMenuHead {
-  font-size: 14px;
-  font-weight: 300;
+.subMenuBody {
+  font-size: 0.93rem;
+  font-weight: 250;
+  color: #242424 !important;
 }
