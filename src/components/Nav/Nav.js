@@ -72,6 +72,7 @@ const Nav = () => {
             id="navbarNavDropdown"
           >
             <ul className="navbar-nav align-center">
+
               <li className="nav-item dropdown">
                 <a
                   className="nav-link "
@@ -87,7 +88,7 @@ const Nav = () => {
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <div className="container-fluid mx-5 mt-4">
+                  <div className="container-fluid px-5 mt-4">
                     <div className="row">
                       <div className="col-md-2">
                         <a className="dropdown-item " href="/">
@@ -110,14 +111,23 @@ const Nav = () => {
                             <div className="subMenuHead mb-3">Clothing</div>
                           </div>
                         </a>
-
-                        <a className="dropdown-item " href="/">
-                          <div className="subMenuBody">chutdfg</div>
-                        </a>
+                        <a className="dropdown-item " href="/">  <div className="subMenuBody"> Dresses </div>  </a>
+                        <a className="dropdown-item " href="/">  <div className="subMenuBody">  Jackets & Coats</div>  </a>
+                        <a className="dropdown-item " href="/">  <div className="subMenuBody">  Blazers </div>  </a>
+                        <a className="dropdown-item " href="/">  <div className="subMenuBody"> Blouses & Tops </div>  </a>
+                        <a className="dropdown-item " href="/">  <div className="subMenuBody"> Knitwear </div>  </a>
+                        <a className="dropdown-item " href="/">  <div className="subMenuBody">   T-Shirts & Sweatshirts </div>  </a>
+                        <a className="dropdown-item " href="/">  <div className="subMenuBody"> Skirts </div>  </a>
+                        <a className="dropdown-item " href="/">  <div className="subMenuBody">    Pants & Shorts </div>  </a>
+                        <a className="dropdown-item " href="/">  <div className="subMenuBody"> Denim </div>  </a>
+                        <a className="dropdown-item " href="/">  <div className="subMenuBody"> Activewear </div>  </a>
+                        <a className="dropdown-item " href="/">  <div className="subMenuBody"> Beachwear </div>  </a>
+                        <a className="dropdown-item " href="/">  <div className="subMenuBody">  Underwear & Socks </div>  </a>
+                        <a className="dropdown-item " href="/">  <div className="subMenuBody">   Bathrobes </div>  </a>
                       </div>
                       <div className="col-md-3">
                         <a className="dropdown-item " href="/">
-                          Action
+                          action
                         </a>
                       </div>
                     </div>
@@ -378,8 +388,6 @@ const Nav = () => {
               </li>
             </ul>
           </div>
-          {/* <form class="d-flex">    <button class="btn btn-outline-success" type="submit">Search</button>
-          </form> */}
         </div>
       </nav>
     </>

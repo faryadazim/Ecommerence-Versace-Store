@@ -5,6 +5,12 @@ function App() {
   return (
     <div>
       <Nav />
+      <div className="banner">
+
+      </div>
+
+
+      <h1>WOMEN </h1>
     </div>
   );
 }
