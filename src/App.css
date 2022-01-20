@@ -16,10 +16,35 @@
 }
 
 .banner {
-  height: 92vh;
+  height: 90vh;
   width: 100%;
   background-image: url("./assets/hero.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.bannerHeight {
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.heroSection p {
+  font-family: GillSansLight;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-group label {
+  border-radius: 0 !important;
+  width: 205px;
+  font-size: 14px;
+  padding: 23px auto !important;
+}
+.NFA {
+  display: inline-block;
+  margin: 02px auto;
 }
