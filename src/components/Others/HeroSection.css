@@ -1,0 +1,36 @@
+.banner {
+  height: 90vh;
+  width: 100%;
+  background-image: url("../../assets/hero.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bannerHeight {
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.heroSection p {
+  font-family: GillSansLight;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.btn-specie-hover {
+  border-radius: 0;
+  width: 200px;
+  padding-top: 11px;
+  padding-bottom: 9px;
+  font-size: 13px;
+  letter-spacing: 0.75px;
+  color: #000000 !important;
+}
+.btn-specie-hover:hover {
+  background-color: #000000 !important;
+
+  color: #ffffff !important;
+}
