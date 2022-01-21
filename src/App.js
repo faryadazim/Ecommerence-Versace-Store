@@ -17,24 +17,29 @@ function App() {
         <div className="container-fluid px-4">
           <div className="row px-2">
             <div className="col-md-3  ">
-              <div className="mx-2 bg-warning">  <div className="px-2">
-                <img src={product_1} alt="product_1" /></div>
+              <div className="mx-1  ">  <div className="">
+                <img src={product_1} alt="product_1" width="100%" /></div>
               </div>
             </div>
             <div className="col-md-3  ">
-              <div className="mx-2 bg-danger">  <div className="px-2">
-                <img src={product_1} alt="product_1" /></div>
+              <div className="mx-1  ">
+                <div className="">
+                  <img src={product_1} alt="product_1" width="100%" /></div>
               </div>
             </div>
             <div className="col-md-3  ">
-              <div className="mx-2 bg-secondary text-light">  <div className="px-2">
-                <img src={product_1} alt="product_1" /></div>
+              <div className="mx-1  text-light">
+
+                <div className="">
+                  <img src={product_1} alt="product_1" width="100%" /></div>
+
               </div>
             </div>
             <div className="col-md-3  ">
-              <div className="mx-2 bg-primary">
-                <div className="px-2">
-                  <img src={product_1} alt="product_1" /></div>
+              <div className="mx-1 ">
+
+                <div className="">
+                  <img src={product_1} alt="product_1" width="100%" /></div>
               </div>
             </div>
           </div>
