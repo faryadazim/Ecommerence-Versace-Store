@@ -1,0 +1,47 @@
+.GiftGame p {
+    font-family: GillSansLight;
+    letter-spacing: 2.35px;
+    font-size: 14px;
+    color: #4d4b4b !important;
+    font-weight: 600;
+  
+    line-height: 19px;
+    padding-right: 100px;
+    /* text-align: justify; */
+  }
+  .GiftGame h2 {
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2.7px;
+    padding-right: 100px;
+  }
+  .btn-specie-attitute {
+    border-radius: 0;
+    width: 335px !important;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    font-size: 13px;
+
+  }
+  .btn-specie-attitute:hover {
+    background-color: #000000 !important;
+  
+    color: #ffffff !important;
+  }
+
+
+
+  
+
+  .bg-image{
+      height: 600px;
+      /* width: 600px; */
+      background-color: #4d4b4b;
+      /* margin-right: auto !important; */
+      background-image: url('../../assets/attitude.webp');
+      margin-left: -75px;
+     
+  }
+
+
+

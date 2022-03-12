@@ -1,0 +1,14 @@
+.ShopNow h2 {
+  /* font-weight: 600; */
+  letter-spacing: 3.6px;
+
+  font-weight: 700;
+  font-size: 25px;
+}
+.poduct-item p {
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.95px;
+  font-weight: 400;
+  font-family: GillSansLight;
+}

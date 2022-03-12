@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "GillSans";
+  font-style: normal;
+  src: local("GillSans"), url("./fonts/Gill\ Sans.otf") format("truetype");
+}
+@font-face {
+  font-family: "GillSansLight";
+  src: local("GillSansLight"),
+    url("./fonts/Gill\ Sans\ Light.otf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "GillSans";
+}
+.mt-10 {
+  margin-top: 90px;
+}

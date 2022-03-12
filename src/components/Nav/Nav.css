@@ -1,0 +1,159 @@
+.Nav-main {
+  position: sticky;
+  top: 0;
+  right: 0;
+  background-color: #ffffff;
+  /* width: 100%; */
+}
+
+* {
+  /* font-family: "GillSans"; */
+}
+
+.mini-nav {
+  padding: 0px 30px !important;
+  background-color: #f5f5f5;
+  margin: auto 0px;
+}
+.microNavLeft {
+  padding: 11px 0px !important;
+  /* font-family: Gillsans, sans-serif; */
+
+  font-size: 13px;
+  font-weight: 375;
+}
+.microNavLeft span {
+  margin-right: 20px;
+}
+.microNavLeft span a {
+  text-decoration: none;
+  color: #242424;
+}
+.microNavRight {
+  padding: 11px 0px !important;
+
+  /* font-family: Gillsans, sans-serif; */
+  font-size: 13px;
+  font-weight: 300;
+  color: #242424;
+}
+.microNavRight > span {
+  margin-left: 20px;
+}
+.centeredData a {
+  letter-spacing: 0.8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #242424;
+  text-decoration: none;
+  border-bottom: 0.4px solid #242424;
+  padding-bottom: 0.3px;
+  font-weight: 400;
+}
+#icon-wishList {
+  height: 18px;
+  width: 18px;
+}
+.bagTag {
+  text-decoration: none !important;
+}
+.bagText {
+  color: #242424;
+  /* margin-left: 5px; */
+}
+
+/* Main Nav  */
+.logo-container {
+  /* background-color: rgb(53, 97, 82); */
+  text-align: center;
+  margin-top: 22px;
+}
+.logo-container img {
+  height: 25px;
+  width: 218px;
+}
+
+/* MEGAMENU  */
+
+/* breakpoint and up - mega dropdown styles */
+@media screen and (min-width: 992px) {
+  /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+  .navbar .nav-item {
+    padding: 0rem 0.5rem;
+    margin: 0 0.25rem;
+  }
+
+  .nav-link {
+    border-bottom: 0.06px solid transparent;
+  }
+  .nav-link:hover {
+    transition: 2s;
+    border-bottom: 0.06px solid #303030;
+  }
+
+  /* makes the dropdown full width  */
+  .navbar .dropdown {
+    position: static;
+  }
+
+  .navbar .dropdown-menu {
+    width: 100%;
+    left: 0;
+    right: 0;
+    /*  height of nav-item  */
+    top: 45px;
+
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+    /* transition-delay: 0.2s; */
+  }
+
+  /* shows the dropdown menu on hover */
+  .navbar .dropdown:hover .dropdown-menu,
+  .navbar .dropdown .dropdown-menu:hover {
+    display: block;
+    visibility: visible;
+    border: none;
+    opacity: 1;
+    height: 445px; /*  customize it */
+    transition: visibility 0s, opacity 0s linear;
+    top: 55px;
+    /* transition-delay: 1s; */
+  }
+
+  .navbar .dropdown-menu {
+    background-color: #f5f5f5;
+  }
+
+  .nav-link {
+    font-family: GillSansLight !important;
+    color: #303030 !important;
+    padding: 11px 0px !important;
+    font-size: 0.83rem;
+    font-weight: 500;
+    letter-spacing: 1.75px;
+  }
+  .dropdown-item {
+    background-color: transparent !important;
+  }
+}
+
+/* dropdown menu setting  */
+.newArivalImage img {
+  height: 214px;
+  width: 174px;
+}
+
+.subMenuHead {
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #242424 !important;
+}
+.subMenuBody {
+  font-size: 0.93rem;
+  font-weight: 250;
+  color: #242424 !important;
+}
